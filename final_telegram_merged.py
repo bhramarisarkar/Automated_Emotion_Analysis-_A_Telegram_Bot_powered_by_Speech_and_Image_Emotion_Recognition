@@ -18,7 +18,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Constants
-TELEGRAM_TOKEN = "7786594796:AAERyI-E4CX88ZyDPH7lNNKfuHYD9qqzRQY"
+TELEGRAM_TOKEN = "bot_token_here"
 IMAGE_MODEL_PATH = "model_optimal.h5"  # Path to image emotion model
 AUDIO_MODEL_PATH = "ser_model_real_world_v2.h5"  # Path to audio emotion model
 MAX_FRAMES = 200  # For audio processing
