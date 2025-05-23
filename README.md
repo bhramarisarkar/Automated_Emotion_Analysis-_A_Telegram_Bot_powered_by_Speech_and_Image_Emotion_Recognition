@@ -1,0 +1,1 @@
+# Automated_Emotion_Analysis-_A_Telegram_Bot_powered_by_Speech_and_Image_Emotion_Recognition
