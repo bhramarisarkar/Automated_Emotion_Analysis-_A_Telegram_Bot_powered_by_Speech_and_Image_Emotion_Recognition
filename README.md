@@ -80,3 +80,26 @@ EmotionAwareBot/
 * Disgust
 
 ---
+## Datasets
+
+We have downloaded the dataset directly from Kaggle
+
+Following are the steps we used :
+### Importing files from google colab
+    from google.colab import files
+   
+    files.upload() 
+### After this upload your own json file 
+### Following steps are:
+    import os
+   
+    import shutil 
+
+   ### Make a Kaggle directory
+    os.makedirs("/root/.kaggle", exist_ok=True)
+
+   ### Move kaggle.json to the correct location
+    shutil.move("kaggle.json", "/root/.kaggle/kaggle.json")
+
+   ### Set permissions to prevent security warnings
+    os.chmod("/root/.kaggle/kaggle.json", 600)
