@@ -12,7 +12,7 @@
 * **Facial Emotion Recognition**: Classifies emotions from facial images.
 * **Telegram Bot Interface**: Users can interact by sending voice or image messages.
 * **Real-Time Detection**: Processes inputs and responds instantly.
-* **Deep Learning Models**: Uses CNN+LSTM for audio and onlly CNN for image-based recognition.
+* **Deep Learning Models**: Uses CNN+LSTM for audio and only CNN for image-based recognition.
 
 ---
 
